@@ -38,3 +38,29 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+}
+#fullstack-developer {
+    border-left: 9px solid;
+    border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+#web-developer {
+    border-left: 9px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
